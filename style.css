@@ -8,32 +8,37 @@ body {
 .menu-li {
   list-style: none;
 }
-.nav{
+.nav {
   text-decoration: none;
   color: aliceblue;
 }
-.encabezado-color{
-    background-color: midnightblue;
+.encabezado-color {
+  background-color: midnightblue;
 }
-.between{
+.between {
   justify-content: space-between; /*distribuye los elementos*/
 }
-.items-center{
+.items-center {
   align-items: center; /*alinear elementos al cento*/
 }
-.main-color{
-    background-color:darkgray;
+.main-color {
+  background-color: darkgray;
 }
-.footer-color{
-    background-color: darkblue;
+.footer-color {
+  background-color: darkblue;
 }
 .main{
-  padding: 40px;
-  border: 50px;
+  max-width: 600px;
+  margin: 40px auto;
 }
-.color-subtitulo{
-    color: orange;
+.color-subtitulo {
+  color: orange;
 }
-.color-texto{
-    color: white;
+.color-texto {
+  color: white;
+}
+.flex2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
