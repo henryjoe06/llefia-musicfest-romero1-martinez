@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+}
+.flex {
+  display: flex;
+  gap: 30px;
+}
+.menu-li {
+  list-style: none;
+}
+.nav{
+  text-decoration: none;
+  color: aliceblue;
+}
+.encabezado-color{
+    background-color: midnightblue;
+}
+.between{
+  justify-content: space-between; /*distribuye los elementos*/
+}
+.items-center{
+  align-items: center; /*alinear elementos al cento*/
+}
+.main-color{
+    background-color:darkgray;
+}
+.footer-color{
+    background-color: darkblue;
+}
+.main{
+  padding: 40px;
+  border: 50px;
+}
+.color-subtitulo{
+    color: orange;
+}
+.color-texto{
+    color: white;
+}
