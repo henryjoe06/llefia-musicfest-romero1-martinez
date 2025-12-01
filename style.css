@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: rgb(48, 69, 116);
 }
 .flex {
   display: flex;
@@ -12,8 +12,8 @@ body {
   text-decoration: none;
   color: aliceblue;
 }
-.encabezado-color {
-  background-color: midnightblue;
+.fondo-header{
+  background-color: rgb(25, 25, 126);
 }
 .between {
   justify-content: space-between; /*distribuye los elementos*/
@@ -22,12 +22,12 @@ body {
   align-items: center; /*alinear elementos al cento*/
 }
 .main-color {
-  background-color: darkgray;
+  background-color: rgb(24, 31, 128);
 }
 .footer-color {
   background-color: darkblue;
 }
-.main{
+.main {
   max-width: 600px;
   margin: 40px auto;
 }
@@ -37,8 +37,17 @@ body {
 .color-texto {
   color: white;
 }
-.flex2{
-    display: flex;
-    align-items: center;
-    justify-content:center;
+.flex2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.tamaño-menu-cartel {
+  display: center;
+  align-items: center;
+  justify-content: center;
+}
+.tamaño-img{
+    width: 500px;
+    height: 300px;
 }
